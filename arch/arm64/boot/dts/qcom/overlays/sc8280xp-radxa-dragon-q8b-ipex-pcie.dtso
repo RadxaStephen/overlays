@@ -8,16 +8,16 @@
 
 / {
 	metadata {
-		title = "Enable PCIe on FPC connector";
+		title = "Enable PCIe on IPEX connector";
 		compatible = "radxa,dragon-q8b";
 		category = "misc";
-		description = "Enable PCIe on FPC connector.";
+		description = "Enable PCIe on IPEX connector.";
 	};
 };
 
 &pcie3a_port0 {
 	pcie@0,0 {
-		pcie@2,0 {
+		pcie@1,0 {
 			status = "okay";
 		};
 	};
